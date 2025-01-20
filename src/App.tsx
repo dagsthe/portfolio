@@ -1,5 +1,4 @@
 import {Button} from "@/components/ui/button"
-import {useState, useEffect} from 'react';
 import { ThemeProvider } from "@/components/theme-provider"
 import { ModeToggle } from "./components/mode-toggle"
 
