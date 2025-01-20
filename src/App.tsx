@@ -22,22 +22,6 @@ import Contactpage from './components/ui/contact'
 import Particles from './Particles.tsx'
 
 function App() {
-  const [showText, setShowText] = useState(false);
-  useEffect(() => {
-    const timer = setTimeout(function(){
-      setShowText(true);
-    }, 1500)
-
-    return () => clearTimeout(timer);
-  })
-
-  function addText(){
-    return <Typewriter words={["DEVELOPER"]} 
-      typeSpeed={200} 
-      cursor={false} 
-    />
-  }
-
   function scrollToPage(Id:string){
     var section = document.getElementById(Id);
     if (section){
