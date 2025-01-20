@@ -1,15 +1,12 @@
 'use client'
 
-import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/16/solid'
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Switch } from "@/components/ui/switch"
 import { Button } from "@/components/ui/button"
-import { Building } from 'lucide-react'
 
 export default function Example() {
-  const [agreed, setAgreed] = useState(false)
 
   return (
     <div className="isolate bg-transparent px-6 py-24 sm:py-32 lg:px-8">
